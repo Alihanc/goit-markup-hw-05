@@ -7,6 +7,9 @@
 .container {
   margin: 0 auto;
   width: 1128px;
+
+
+ /* border: #4d5ae5 1px solid;*/
 }
 
 body {
@@ -110,13 +113,14 @@ header .link2:hover {
   display: inline-block;
   font-family: "raleway", sans-serif;
   text-decoration: none;
-  margin-top: 100px;
   font-size: 18px;
   font-weight: 700;
   color: #4d5ae5;
   line-height: 21px;
-  margin-left: 156px;
-  margin-top: 100px;
+
+
+/*  border: 1px solid #e7e9fc;*/
+
 }
 
 .footer #logo-3 {
@@ -303,7 +307,6 @@ ul {
 .portfolio {
   text-align: center;
   height: 1000px;
-  margin-left: 156px;
   margin-top: 120px;
   padding: 0px;
 
@@ -389,14 +392,32 @@ background-color: #fff;
   margin-top: 120px;
   height: 312px;
 
-  /*border: blue solid 3px;*/
+ /* border: blue solid 3px;*/
 }
 
 .footer-text {
   width: 264px;
   height: 72px;
-  margin: 16px 0 0 156px;
   color: #f4f4fd;
+  padding-top: 8px;
+
+  padding: 0;
+
+
+ /* border: #31d0aa solid 1px;*/
+}
+
+.footer-list{
+  size: 16px;
+  width: 264px;
+  height: 112px;
+  padding-left: 0px;
+  padding-top: 0px;
+
+  margin-top: 100px;
+
+
+ /* border: red solid 1px;*/
 }
 
 .footer-social-links {
@@ -411,7 +432,7 @@ background-color: #fff;
   margin-bottom: 0px;
   margin-left: 0px;
 
-  /*border: solid 1px #212121;*/
+ /* border: solid 1px yellow;*/
 }
 
 .link3 {
@@ -453,15 +474,12 @@ background-color: #fff;
   margin-top: 100px;
   align-items: baseline;
 
-  /*border: #e7e9fc solid 1px;*/
-}
-.footer-list {
-  display: flex;
-  size: 16px;
+ /* border: orange solid 1px;*/
 }
 
+
 .subscribe-label{
-  display:flex;
+  
   flex-direction: column;
 }
 
@@ -470,8 +488,7 @@ background-color: #fff;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #ffffff;
-  padding-left: 16px;
-  margin-top: 16px;
+ margin-top: 8px;
   background-color: transparent;
 }
 .subscribe-button{
@@ -481,19 +498,46 @@ background-color: #fff;
   border: none;
   background-color: #4d5ae5;
   color: #ffffff;
-  margin-left: 18px;
+  margin-top: 40px;
+
+
+ /* border: burlywood solid 1px;*/
+
 }
 .subscribe-form{
   display: flex;
+  
   align-items: baseline;
   margin-top: 0px;
   width: 453px;
   height: 80px;
-margin-left: 828px;
-margin-bottom: -100px;
-position: absolute;
+  margin-left: 80px;
+  margin-top: 100px;
 
 
 
-  border: #e7e9fc 1px solid;
+ /* border: #e7e9fc 1px solid;*/
 }
+
+.subscribe-text{
+  display: flex;
+  
+  margin: 0px;
+  gap: 24px;
+
+  /*border: #e7e9fc 1px solid;*/
+}
+
+.subscribe-icon{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wiev{
+  display: flex; 
+  margin-left: 0px;
+  
+}
+
