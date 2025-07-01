@@ -629,14 +629,13 @@ img {
   border-radius: 50%;
   border: 1px solid #8e8f99;
 }
-.icon-close-button{
-fill: #2e2f42;
-width: 8px;
-height: 8px;
-display: flex;
-justify-content: center;
-align-items: center;
-
+.icon-close-button {
+  fill: #2e2f42;
+  width: 8px;
+  height: 8px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 .close-button:hover {
@@ -674,9 +673,6 @@ align-items: center;
   height: 24px;
   fill: #2e2f42;
   flex-shrink: 0;
-
-  
-
 
   /*border: #31d0aa 1px solid;*/
 }
