@@ -532,7 +532,6 @@ img {
 
 /*backdrop bölümü*/
 .backdrop {
-  display: flex;
   flex-direction: column;
   position: absolute;
   top: 0;
@@ -541,6 +540,11 @@ img {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.7);
   z-index: 9999;
+  display: none;
+}
+
+.is-open {
+  display: flex;
 }
 
 .modal-content {
@@ -693,7 +697,7 @@ img {
 }
 
 .send-button:hover {
-  background-color: #404bbf;
+ /background-color: #404bbf;
   color: #ffffff;
   text-decoration: none;
 }

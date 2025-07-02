@@ -474,104 +474,122 @@
 
       <!-- modal alanı  -->
       <div class="backdrop">
-        <div class="modal-content">
-          <button class="close-button" aria-label="Close modal">
-            <svg class="icon icon-close-button"><use xlink:href="./images/icons.svg/symbol-defs.svg#icon-close-button"></use></svg>
-          </button>
+          <div class="modal-content">
+            <button class="close-button" aria-label="Close modal">
+              <svg class="icon icon-close-button">
+                <use
+                  xlink:href="./images/icons.svg/symbol-defs.svg#icon-close-button"
+                ></use>
+              </svg>
+            </button>
 
-          <p class="modal-title">
-            Leave your contacts and we will call you back
-          </p>
+            <p class="modal-title">
+              Leave your contacts and we will call you back
+            </p>
 
-          <form class="modal-form" name="modal-form" autocomplete="off">
-            <div class="modal-wrapper">
-              <label for="name" class="modal-label">
+            <form class="modal-form" name="modal-form" autocomplete="off">
+              <div class="modal-wrapper">
+                <label for="name" class="modal-label">
+                  <div class="backdrop-icon">
+                    <svg class="icon icon-name-icon">
+                      <use
+                        xlink:href="./images/icons.svg/symbol-defs.svg#icon-name-icon"
+                      ></use>
+                    </svg>
+                  </div>
 
-                <div class="backdrop-icon">
-                <svg class="icon icon-name-icon"><use xlink:href="./images/icons.svg/symbol-defs.svg#icon-name-icon"></use></svg></div>
+                  Name
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="modal-input"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </label>
+              </div>
+              <div class="modal-wrapper">
+                <label for="phone" class="modal-label">
+                  <div class="backdrop-icon">
+                    <svg class="icon icon-phone-icon">
+                      <use
+                        xlink:href="./images/icons.svg/symbol-defs.svg#icon-phone-icon"
+                      ></use>
+                    </svg>
+                  </div>
 
-                Name
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  class="modal-input"
-                  placeholder="Enter your name"
+                  Phone
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="modal-input"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </label>
+              </div>
+
+              <div class="modal-wrapper">
+                <label for="email" class="modal-label">
+                  <div class="backdrop-icon">
+                    <svg class="icon icon-mail-icon">
+                      <use
+                        xlink:href="./images/icons.svg/symbol-defs.svg#icon-mail-icon"
+                      ></use>
+                    </svg>
+                  </div>
+
+                  Email
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="modal-input"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </label>
+              </div>
+
+              <label for="comment" class="modal-label">
+                Comment
+                <textarea
+                  name="message"
+                  class="modal-textarea"
+                  placeholder="Text input"
+                  rows="8"
                   required
-                />
+                ></textarea>
               </label>
-            </div>
-            <div class="modal-wrapper">
-              <label for="phone" class="modal-label">
-                <div class="backdrop-icon">
-               <svg class="icon icon-phone-icon"><use xlink:href="./images/icons.svg/symbol-defs.svg#icon-phone-icon"></use></svg></div>
 
-                Phone
+              <div class="checkbox-div">
                 <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  class="modal-input"
-                  placeholder="Enter your phone number"
-                  required
+                  type="checkbox"
+                  name="Privacy-policy"
+                  id="checkbox-input"
                 />
-              </label>
-            </div>
 
-            <div class="modal-wrapper">
-              <label for="email" class="modal-label">
-                <div class="backdrop-icon">
-                <svg class="icon icon-mail-icon"><use xlink:href="./images/icons.svg/symbol-defs.svg#icon-mail-icon"></use></svg></div>
+                <label for="checkbox-input" class="checkbox-label">
+                  <div class="checkbox-icon">
+                    <svg class="icon icon-checkbox-icon">
+                      <use
+                        xlink:href=".\images\icons.svg\symbol-defs.svg#icon-checkbox-icon"
+                      ></use>
+                    </svg>
+                  </div>
 
-                Email
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  class="modal-input"
-                  placeholder="Enter your email"
-                  required
-                />
-              </label>
-            </div>
+                  <span class="checkbox-text">
+                    accept the terms and conditions of the
+                    <a href="" class="Privacy-policy">Privacy Policy</a>
+                  </span>
+                </label>
+              </div>
 
-            <label for="comment" class="modal-label">
-              Comment
-              <textarea
-                name="message"
-                class="modal-textarea"
-                placeholder="Text input"
-                rows="8"
-                required
-              ></textarea>
-            </label>
-
-            <div class="checkbox-div">
-              <input
-                type="checkbox"
-                name="Privacy-policy"
-                id="checkbox-input"
-              />
-
-              <label for="checkbox-input" class="checkbox-label">
-                <div class="checkbox-icon">
-                  <svg class="icon icon-checkbox-icon">
-                    <use
-                      xlink:href=".\images\icons.svg\symbol-defs.svg#icon-checkbox-icon"
-                    ></use>
-                  </svg>
-                </div>
-
-                <span class="checkbox-text">
-                  accept the terms and conditions of the
-                  <a href="" class="Privacy-policy">Privacy Policy</a>
-                </span>
-              </label>
-            </div>
-
-            <button type="submit" class="send-button">Send</button>
-          </form>
-        </div>
+              <button type="submit" class="send-button">Send</button>
+            </form>
+          </div>
       </div>
     </main>
 
